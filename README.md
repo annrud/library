@@ -18,7 +18,7 @@ API для работы с библиотекой **library**.
 2. Клонируйте проект в рабочую директорию:<br> 
 ```$ git clone https://github.com/<ваш_username>/library.git```
 3. Создайте файл **_.env_** (в директории рядом с settings.py) с переменными окружения (см. **_.env.dist_**).<br>
-4. Создание сервисов (выполнение команды из корневой папки):
+4. Создание сервисов (выполнение команды из корневой папки):<br>
 ```$ docker compose -f infra/docker-compose.yml build```<br>
 5. Сборка и запуск контейнеров:<br>
 ```$ docker compose -f infra/docker-compose.yml up -d```<br>
